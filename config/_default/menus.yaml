@@ -23,53 +23,61 @@ main:
     pageRef: about/consortium
     weight: 20
     parent: About
+  - name: People
+    pageref: about/people
+    weight: 30
+    parent: About
   - name: Collaborators
     pageRef: about/collaborators
-    weight: 21
+    weight: 40
     parent: About
   - name: Scientific Advisory Board
     pageRef: about/scientific-advisory-board
-    weight: 25
+    weight: 50
     parent: About
-  - name: Workpackage Overview
+
+  # Workpackage tab
+  - name: Work Packages
+    weight: 20
+  - name: Overview
     pageRef: /workpackages
-    weight: 30
-    parent: About
+    weight: 10
+    parent: Work Packages
     identifer: workpackages
   - name: WP1 - Network
     pageRef: workpackages/01_Framework_European_Network
-    weight: 40
+    weight: 20
     identifer: WP1
-    parent: About
+    parent: Work Packages
   - name: WP2 - Best Practice
     pageRef: workpackages/02_Best_Practices
-    weight: 50
+    weight: 30
     identifer: WP2
-    parent: About
+    parent: Work Packages
   - name: WP3 - Tools and Services
     pageRef: workpackages/03_Tools_and_Services
-    weight: 60
+    weight: 40
     identifer: WP3
-    parent: About
+    parent: Work Packages
   - name: WP4 - Pilots and Drivers
     pageRef: workpackages/04_Pilots_and_Drivers
-    weight: 70
+    weight: 50
     identifer: WP4
-    parent: About
+    parent: Work Packages
   - name: WP5 - Capacity and Recognition
     pageRef: workpackages/05_Capacity_and_Recognition
-    weight: 80
+    weight: 60
     identifer: WP5
-    parent: About
+    parent: Work Packages
   - name: WP6 - Project Management
     pageRef: workpackages/06_Project_Management
-    weight: 90
+    weight: 70
     identifer: WP6
-    parent: About
+    parent: Work Packages
 
   # Services tab
   - name: Services
-    weight: 20
+    weight: 30
   - name: RSQkit
     weight: 10
     pageRef: services/RSQkit
@@ -126,13 +134,21 @@ main:
     weight: 10
     pageRef: /network
     parent: Network
-  - name: Contact EVERSE
+  - name: Newsletter
+    weight: 15
+    pageRef: /network/newsletter
+    parent: Network
+  - name: Webinar series
     weight: 20
-    pageRef: /contact
-    parent: Network  
+    pageRef: /network/webinars
+    parent: Network
   - name: Code of Conduct
     weight: 30
     pageRef: /network/code_of_conduct
+    parent: Network  
+  - name: Contact EVERSE
+    weight: 40
+    pageRef: /contact
     parent: Network  
   # - name: Communities
   #   weight: 10
@@ -174,9 +190,9 @@ footer:
     url: https://bsky.app/profile/eosc-everse.bsky.social
     pre: bluesky
     weight: 125
-  - name: X-Twitter
-    url: https://twitter.com/eosc_everse
-    pre: x-twitter
+  - name: YouTube
+    url: https://www.youtube.com/channel/UCHMrK3NFTwTAB2t8Sbt7sVA
+    pre: youtube
     weight: 130
   - name: FOSStodon
     url: https://fosstodon.org/@eosc_everse

@@ -7,13 +7,9 @@ showDate: false
 groupByYear: false
 ---
 
-{{< alert icon="bell" iconColor=#80539a  cardColor="#3ea3dc" textColor="#e4e4e3" >}}
-*Register to join us for the [EVERSE Network Launch event](https://indico.cern.ch/e/eversenetworklaunch) on 18 February!*
-{{<  /alert >}}
-
+{{< figure src="/images/network/EVERSE_Logo_Subline.png" class="float-right m-2 w-[30%]" >}}
 ## Improving Research Software Quality
 
-{{< figure src="/images/network/network_all.png" class="float-right m-2 w-[30%]" >}}
 
 The EVERSE project is committed to improving the quality of software in European research in the international context. EVERSE is launching a Network of Research Software Quality to allow us to work with individuals and partner organisations to achieve this common goal.
 
